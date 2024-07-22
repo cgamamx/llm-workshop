@@ -15,7 +15,7 @@ By the end of this workshop, participants will gain hands-on experience in harne
 * A Python IDE.
 
 ### Pre-Workshop Requisites
-Go over the [pre-workshop requisites tutorial](./blob/main/pre_reqs/pre-requisites.md) to prepare you system for the workshop. It requires to install Ollama, and download ~5GB of data, therefore it is better to do it before the workshop. 
+Go over the [pre-workshop requisites tutorial](./pre_reqs/pre-requisites.md) to prepare you system for the workshop. It requires to install Ollama, and download ~5GB of data, therefore it is better to do it before the workshop. 
 
 ### Agenda
 *Note:* If time permits, we will cover all four interactive use cases during the workshop. However, if we are short on time, demos #3 and #4 will be assigned as take-home exercises for participants to complete on their own. 

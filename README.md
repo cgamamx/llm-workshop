@@ -1,6 +1,6 @@
 # Unlocking the Power of LLMs for Customizable Problem-Solving
 
-By the end of this workshop, participants will gain hands-on experience in harnessing the power of Large Language Models (LLMs) using Llama and Langchain to create customizable applications that can solve real-world problems. Through interactive demonstrations, participants will learn how to leverage LLAMA's capabilities to build innovative applications. 
+This workshop covers the use of LLM agents ( using Llama ) and how to integrate them into different real life applications. Participants will get hands-on experience with Llama by learning how to extend a basic agent to connect to a database for data retrieval & how to chain GenAI models together to generate animations. The workshop will also cover security and privacy considerations when working with LLM agents. 
 
 ### Prior knowledge:
 * **Intermediate Python**: You need to know how to setup a virtual environment, install the required packages, and jupyter-lab.
@@ -16,6 +16,8 @@ By the end of this workshop, participants will gain hands-on experience in harne
 
 ### Pre-Workshop Requisites
 Go over the pre-workshop requisites tutorial to prepare you system for the workshop. It requires to install Ollama, and download ~5GB of data, therefore it is better to do it before the workshop. 
+Download link for Ollma : https://ollama.com/download/mac 
+
 
 ### Agenda
 *Note:* If time permits, we will cover all four interactive use cases during the workshop. However, if we are short on time, demos #3 and #4 will be assigned as take-home exercises for participants to complete on their own. 

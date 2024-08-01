@@ -26,16 +26,14 @@ $ curl -fsSL https://ollama.com/install.sh | sh
 $ ollama pull llama3
 ```
 
-2. (Optional) Run the following command to download the Llama3 70b chat model (4-bit quantized, ~39 GB):
+2. Repeat the command above to download these models: `llama3.1` `llama3-groq-tool-use`
+   
+3. (Optional) Run the command again to download the 70b models: `llama3.1:70b` `llama3:70b` `llama3-groq-tool-use:70b`
+
+4. Run the following command to test the models. For example, if you want to launch `llama3.1`:
 
 ```
-ollama pull llama3:70b
-```
-
-3. Run the following command to test Llama3:
-
-```
-ollama run llama3
+$ ollama run llama3.1
 ```
 
 Ask Llama3 questions, such as "who wrote the book godfather?" or "who wrote the book godfather? answer in one sentence."
@@ -66,7 +64,7 @@ $ pip3 install virtualenv
 $ virtualenv venv
 $ source  venv/bin/activate
 ```
-   
+
 **Step 3: Install Required Libraries**
 
 Install the libraries listed in the requirements.txt file. Make sure your virtual environment is active.
@@ -76,7 +74,14 @@ Install the libraries listed in the requirements.txt file. Make sure your virtua
 (venv) $ pip install -r requirements.txt
 ```
 
-**Step 4: Configure Your IDE** 
+**Step 4: Launch Jupyter Lab**
+
+In the virtual environment, launch jupyter lab to access the notebooks. 
+
+```{SSH}
+(venv) $ jupyter-lab
+```
+
+**Step 5: Configure Your IDE** 
 
 Finally, follow the steps specific to your IDE to use the newly created Python environment. Please refer to your IDE's documentation for instructions on how to do this.
-
